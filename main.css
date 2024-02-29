@@ -5,6 +5,12 @@
     box-sizing:border-box;
 }
 
+body{
+    background-image: url(./images/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 header{
     justify-content: space-between;
     align-items: center;
@@ -62,10 +68,19 @@ form label{
 .form-campo{
     background: transparent;
     backdrop-filter: blur(10px);
-    height: 550px;
+    height: 590px;
     width: 120%;
     border: 1px solid gray;
     border-radius: 8px;
     margin-top: 50px;
 }
 
+footer{
+    margin-top: 180px;
+}
+
+.social img{
+    height: 50px;
+    justify-content: space-around;
+    cursor: pointer;
+}
