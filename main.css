@@ -46,10 +46,10 @@ color: #bbd5f3;
 
 form input, form button, form label {
     align-items: center;
+    font-size: 20px;
     display: block;
     width: 320px;
     padding: 8px;
-    margin-left: 50px;
     box-sizing: border-box; 
 }
 
@@ -61,26 +61,29 @@ form button {
     margin-top: 8px;
 }
 
-form label{
+form label {
     color: white;
 }
 
-.form-campo{
+.form-campo {
     background: transparent;
     backdrop-filter: blur(10px);
-    height: 590px;
-    width: 120%;
+    min-height: 690px; 
+    width: 100%; /* Ou ajuste conforme necessário */
     border: 1px solid gray;
     border-radius: 8px;
     margin-top: 50px;
+    padding: 15px; 
+    box-sizing: border-box;
 }
 
-footer{
+footer {
     margin-top: 180px;
 }
 
-.social img{
+.social img {
     height: 50px;
     justify-content: space-around;
     cursor: pointer;
 }
+
